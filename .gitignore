@@ -1,0 +1,17 @@
+# Cython build artifacts
+engine/*.c
+engine/*.so
+build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime / logs
+*.log
+/dev/shm/chronosmatch_*.ring
+
+# OS
+.DS_Store
